@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Show/Hide Div Example</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<body>
+
+    <div id="myDiv" style="display: none; border: 1px solid red; height: 30px;">
+        <h1>This is a hidden div.</h1>
+    </div>
+
+    <script>
+          if (!sessionStorage.getItem('LoggedIn')){
+            document.getElementById('myDiv').style.display = 'none';
+            Swal.fire(
+                'access denied. ',
+                'Please Login First',
+                'error'
+            ).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = 'index.html';
+                }
+            })
+        } else {
+
+            document.getElementById('myDiv').style.display = 'block';
+            Swal.fire(
+                    'Success ',
+                    'Welcome To My Resume.',
+                    'success'
+                )
+            // alert("Welcome To My Resume.");
+        }
+    </script>
+
+</body>
+
+</html>

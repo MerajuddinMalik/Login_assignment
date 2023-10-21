@@ -1,0 +1,278 @@
+.container {
+  margin-top: 30px;
+  background-image: linear-gradient(#ffd633, white);
+  border: 1px solid rgb(250, 249, 249);
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 70px;
+  border: 2px solid white;
+  margin-left: 180px;
+  margin-bottom: 20px;
+
+
+}
+
+.name {
+  /* margin-top: 200px; */
+  color: #fff;
+  font-size: 3vw;
+  margin-top: 180px;
+  font-weight: bolder;
+}
+
+.pname {
+  font-size: 1.5vw;
+  font-weight: bolder;
+}
+
+.psummary {
+  font-size: 1vw
+}
+
+
+.ContactDetails h5 {
+  color: white;
+  font-weight: bolder;
+  font-variant-caps: all-petite-caps;
+  border-radius: 12px 2px 12px 2px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 40px;
+  background-color: #ffcc00;
+  font-size: 1.7vw
+}
+
+.p1 {
+
+  /* margin-top: -18px; */
+  font-size: 1.2vw
+}
+
+.p2,
+.p3 {
+
+  margin-top: -38px;
+  font-size: 1.2vw
+}
+
+i {
+  color: #ffcc00;
+}
+
+.experiences h5 {
+  color: white;
+  font-weight: bolder;
+  font-variant-caps: all-petite-caps;
+  margin-top: 40px;
+  border-radius: 12px 2px 12px 2px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  background-color: #ffcc00;
+  font-size: 1.7vw
+}
+
+.experiences h6 {
+  font-weight: bolder;
+  margin-top: -20px;
+  font-size: 1.2vw
+}
+
+.experiences span {
+  color: #ffcc00;
+  font-size: 1.2vw;
+}
+
+.experiences p {
+  font-size: 1.2vw;
+}
+
+.education h5 {
+  color: white;
+  font-weight: bolder;
+  font-variant-caps: all-petite-caps;
+  border-radius: 12px 2px 12px 2px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  background-color: #ffcc00;
+  font-size: 1.7vw
+}
+
+.education h6 {
+  font-weight: bolder;
+  font-size: 1.2vw
+}
+
+.education span {
+  margin-top: -20px;
+  color: #ffcc00;
+  font-size: 1.2vw;
+}
+
+.education p {
+  font-size: 1.2vw;
+}
+
+.skills h5 {
+  color: white;
+  font-weight: bolder;
+  font-variant-caps: all-petite-caps;
+  border-radius: 12px 2px 12px 2px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  background-color: #ffcc00;
+  font-size: 1.7vw;
+
+}
+
+.Additionalskills h5 {
+  color: white;
+  font-weight: bolder;
+  font-variant-caps: all-petite-caps;
+  border-radius: 12px 2px 12px 2px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 200px;
+  background-color: #ffcc00;
+  font-size: 1.7vw;
+}
+
+.Additionalskills img {
+  margin-left: 36px;
+  max-width: 100%;
+  margin-bottom: 25px;
+  max-height: auto;
+}
+
+
+.botdevelopments h5 {
+  color: white;
+  font-weight: bolder;
+  font-variant-caps: all-petite-caps;
+  border-radius: 12px 2px 12px 2px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  background-color: #ffcc00;
+  font-size: 1.7vw;
+
+}
+
+.botdevelopments img {
+  margin-left: 30px;
+  max-width: 100%;
+  max-height: auto;
+  /* margin-top: -15px; */
+  margin-bottom: 15px;
+
+}
+
+.certificate h5 {
+  color: white;
+  font-weight: bolder;
+  font-variant-caps: all-petite-caps;
+  border-radius: 12px 2px 12px 2px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  background-color: #ffcc00;
+  font-size: 1.7vw;
+}
+
+.certificate img {
+  max-width: 100%;
+  max-height: auto;
+  margin-bottom: 20px;
+  margin-left: 25px;
+
+  /* border: 1px solid red; */
+
+}
+
+#col p {
+  font-size: 0.8vw;
+  color: #e9bb03;
+}
+
+@media screen and (max-width: 380px),
+(max-width: 720px),
+(max-width: 820px),
+(max-width: 980px) {
+
+  .certificate img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+
+  .botdevelopments img {
+    margin-left: 10px;
+    width: 80px;
+    height: auto;
+  }
+
+  .Additionalskills img {
+    margin-left: 10px;
+    width: 13.5%;
+    height: auto;
+  }
+
+  #mongo {
+    width: 80px;
+  }
+
+  .img-responsive {
+    width: 160px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 120px;
+    border: 2px solid white;
+    margin-left: 50px;
+
+  }
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin: 10px 0;
+}
+
+.skill-name {
+  font-weight: bolder;
+  font-variant-caps: all-petite-caps;
+  font-size: 1.3vw;
+}
+
+.skill-level {
+  background-color: #f0f0f0;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.skill-level-bar {
+  background-color: #fcce00;
+  height: 100%;
+  border-radius: 5px;
+  text-align: right;
+  line-height: 10px;
+  font-size: 0.9vw;
+  color: #fff;
+  /* padding: 0 5px; */
+}
+
+#skillul {
+  float: left;
+  margin-top: -15px;
+
+}

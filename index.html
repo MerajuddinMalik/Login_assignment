@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- CDN For SweetAlart -->
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="bg"></div> 
+
+    <form>
+        <div class="form-field">
+            <input type="text" id="username" placeholder="Enter Your Username" required>
+        </div>
+        <div class="form-field">
+            <input type="password" id="password" placeholder="Enter Your password" required>
+        </div>
+        <div class="form-field">
+            <button class="btn" type="button" onclick="login();">Login</button>
+        </div>
+    </form>
+
+</body>
+</html>

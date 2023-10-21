@@ -1,0 +1,98 @@
+
+
+#bg {
+    background-image: url('login.png');
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* filter: blur(2px); */
+  }
+
+body {
+    font-family: 'Lato' sans-serif;
+    color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    width: 350px;
+    position: relative;
+  }
+
+  
+form .form-field::before {
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 17px;
+    color: #888888;
+    content: " ";
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+form .form-field:nth-child(1)::before {
+    background-image: url(user.png);
+    width: 23px;
+    height: 23px;
+    top: 15px;
+  }
+
+form .form-field:nth-child(2)::before {
+    background-image: url(lock.png);
+    width: 23px;
+    height: 23px;
+  }
+
+  
+form .form-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+
+  
+form input {
+    font-family: inherit;
+    width: 100%;
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+    display: block;
+    padding: 0.9rem 0.7rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+    text-indent: 40px;
+    border: 2px solid yellow;
+  }
+
+  
+form .btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.9rem 2.5rem;
+    text-align: center;
+    background-color: yellow;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 14px;
+    width: 50%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+  }

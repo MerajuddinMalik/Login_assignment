@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <link rel="icon" type="x-icon" href="dp.png" />
+  <link rel="stylesheet" href="cv_style.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+    
+  <script src="https://kit.fontawesome.com/e2fe5ba28b.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head> 
+
+
+<body>
+
+  <script>
+    if (!sessionStorage.getItem('LoggedIn')) {
+      
+        Swal.fire(
+            'Access denied. ',
+            'Please Login First To See The Content',
+            'error'
+        )
+        .then((result) => {
+        if (result.isConfirmed) {
+            window.location.href= 'index.html';
+        }
+    })
+    }
+    else{
+      document.querySelector('#myDiv').style.display = 'block';
+    }
+</script>
+
+  <div class="container" id="myDiv">
+    <div class="row">
+      <div class="col">
+        <img class="img-responsive" src="dp.png" alt="Chania" width="280" height="300" />
+      </div>
+
+      <div class="col">
+        <h1 class="name">Meraj Uddin Malik</h1>
+        <h5 class="pname">Software Developer</h5>
+        <p class="psummary">
+          To find a challenging position to meet my competencies,
+          capabilities, skills, education<br> and experience. Highly organized
+          and analytical with a keen eye for details.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col">
+        <div class="ContactDetails">
+          <h5>Contact</h5><br />
+          <p class="p1"><i class="fa fa-phone"></i> &nbsp; +92300295272</p><br />
+          <p class="p2"><i class="fa fa-at"></i> &nbsp; merajuddin618@gmail.com</p><br />
+          <p class="p3">
+            <i class="fa fa-map-marker-alt"></i> &nbsp; House 60 Street 05 Sector 03 Naval Colony Karachi
+          </p>
+          <br />
+        </div>
+
+
+
+        <div class="skills">
+          <h5>Skills</h5>
+          <br />
+          <div class="col-6" id="skillul">
+            <ul class="skills-list">
+              <li>
+                <span class="skill-name">HTML - CSS - Bootstrap</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 95%;">95%</div>
+                </div>
+              </li>
+
+              <li>
+                <span class="skill-name">Javascript - Typescript</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 80%;">80%</div>
+                </div>
+              </li>
+
+              <li>
+                <span class="skill-name">Java - Python - MVC</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 65%;">65%</div>
+                </div>
+              </li>
+
+
+            </ul>
+          </div>
+
+          <div class="col-6" id="skillul">
+            <ul class="skills-list">
+              <li>
+                <span class="skill-name"> jquery - PHP - Laravel</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 85%;">85%</div>
+                </div>
+              </li>
+
+              <li>
+                <span class="skill-name"> Nodejs - Expressjs - C#</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 70%;">70%</div>
+                </div>
+              </li>
+
+              <li>
+                <span class="skill-name"> MongoDB - SQL - MySql</span>
+                <div class="skill-level">
+                  <div class="skill-level-bar" style="width: 60%;">60%</div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+
+
+
+          <div class="Additionalskills">
+            <h5>Additional Skills</h5>
+            <br />
+            <img src="ps.png" alt="html" height="40px" />
+            <img src="il.png" alt="html" height="40px" />
+            <img src="shopify.png" alt="html" height="40px" />
+            <img src="wd.png" alt="html" height="40px" />
+            <img src="office.png" alt="html" height="40px" />
+            <br />
+          </div>
+
+          <div class="botdevelopments">
+            <h5>Bot Development Skills</h5>
+            <br />
+            <img src="ES.png" alt="html" height="30px" />
+            <img src="kore.png" alt="html" height="30px" />
+            <img src="lex.png" alt="html" height="60px" />
+            <br />
+          </div>
+
+          <div class="certificate">
+            <h5>Achivements</h5>
+            <br />
+            <img src="Ambassador Logo.png" alt="html" height="55px" />
+            <img src="APTCH8.png" alt="html" height="65px" />
+            <img src="aws.png" alt="html" height="65px" />
+            <img src="aptechvision.png" alt="html" height="65px" />
+            <br />
+          </div>
+          <div class="certificate">
+            <h5>Languages</h5>
+            <br />
+            <span class="skill-name" style="margin-left: 80px;"> English</span>
+            <span class="skill-name" style="margin-left: 90px;"> Urdu</span> 
+            <span class="skill-name" style="margin-left: 90px;"> Shina</span> 
+            <br />
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="experiences">
+          <h5>Professional experience</h5>
+          <br />
+          <h6>Professional Services Engineer | InteractCX</h6>
+          <span>2022 - Present</span>
+          <p>
+            Responsible for developing Contact center IVR , <br />
+            Bot Development, Digital Interaction Channel Building &<br />
+            VAH & Middleware Development
+          </p>
+          <br />
+
+          <h6 class="exp">Lead Generation Officer | Logicose Softwares</h6>
+          <span>2020 - 2022</span>
+          <p>
+            Responsible for developing Wep Apps Generating Leads For <br />
+            Software Development Team & Working With Network Team.
+          </p>
+          <br />
+
+          <h6 class="exp">Web Developer | SOCOL</h6>
+          <span>2019 -2020</span>
+          <p>
+            Responsible for developing Web-Apps For Clients <br />
+            Desktop Application Development & Updating <br>Voters Data In Website.
+          </p>
+        </div>
+        <br />
+
+        <div class="education">
+          <h5>Education</h5>
+          <br />
+          <h6>PIAIC</h6>
+          <span>2023 - Present</span><br>
+          <p>Certified AI, Metaverse, and Web 3.0
+            Developer & Solopreneur (Diploma) </p>
+
+          <h6>Indus University</h6>
+          <span>2021 - Present</span><br>
+          <p> Student Of Computer Science (BSCS)</p>
+
+          <h6>Graphic Designing | Digi9</h6>
+          <span>2020 - 2021</span><br>
+          <p> Diploma in Graphic Designing
+          </p>
+
+          <h6>Aptech Learning</h6>
+          <span>2017 - 2021</span><br>
+          <p> Software Engineering ACCP - EE (Diploma) </p>
+
+          <h6>MTI College</h6>
+          <span>2014 - 2016</span><br>
+          <p> Intermidiat FSC (Pre-Medical)
+          </p>
+
+          <h6>Dawn Public Secondary School
+          </h6>
+          <span>2004 - 2014</span><br>
+          <p> Matric SSC (Science)
+          </p>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>
